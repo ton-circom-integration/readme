@@ -79,7 +79,7 @@ snarkjs powersoftau contribute pot4_0000.ptau pot4_0001.ptau --name="First contr
 # we'll only make 1 contribution here for simplicity, however note that the trusted setup ceremony is a very important process, and there must be at least one contribution by a non-malicious party for the setup to be safe
 snarkjs powersoftau verify pot4_0001.ptau
 snarkjs powersoftau beacon pot4_0001.ptau pot4_beacon.ptau 0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f 10 -n="Final beacon"
-powersoftau prepare phase2 pot4_beacon.ptau pot4_final.ptau -v
+snarkjs powersoftau prepare phase2 pot4_beacon.ptau pot4_final.ptau -v
 ```
 
 ### Setup the ZK keys
